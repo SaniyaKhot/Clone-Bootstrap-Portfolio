@@ -39,7 +39,7 @@ nav a{
     margin-top: 5rem;
 }
 
-#profile-img{
+.profile-img{
     width: 220px;
     height: 220px;
     object-fit: cover;
@@ -212,10 +212,11 @@ nav a{
 
 }
 
-.profile-img {
+/* .profile-img {
     width: 200px;     
     height: 200px;     
     border-radius: 50%;
     object-fit: cover;  /* Prevents image stretching */
-}
+} */
+
 

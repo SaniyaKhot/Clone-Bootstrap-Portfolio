@@ -228,6 +228,57 @@ nav a{
     box-shadow: 0 10px 25px rgba(0,0,0,0.3);
     margin-bottom: 20px;
 }
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        font-size: 18px;
+    }
+
+    #hero h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    #hero h5 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .profile-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .row1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #portfolio img {
+        width: 90%;
+    }
+
+    .about-mid {
+        flex-direction: column;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .about-midl,
+    .about-midr {
+        width: 100%;
+    }
+
+    #contact button {
+        margin-left: 0;
+    }
+
+    .rowb {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
 
 
 

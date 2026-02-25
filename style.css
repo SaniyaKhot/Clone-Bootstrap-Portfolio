@@ -39,9 +39,14 @@ nav a{
     margin-top: 5rem;
 }
 
-#hero img{
-    height:240px;
-    width: 254.54px;
+.profile-img{
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid white;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
 }
 
 .svg{
@@ -204,4 +209,5 @@ nav a{
     background-color: #18242e;
     color: white;
     justify-content: center;
+
 }
